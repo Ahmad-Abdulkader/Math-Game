@@ -66,12 +66,12 @@ Math-Game/
 
 ### Game Start
 
-![Game Start](screenshots/Start Game.png)
+![Game Start](screenshots/StartGame.png)
 
 ### Question
 
-![Question](screenshots/question_1.png)
-![Question](screenshots/question_2.png)
+![Question](screenshots/Question_1.png)
+![Question](screenshots/Question_2.png)
 
 
 ### Final Results
