@@ -2,14 +2,17 @@
 
 A console-based Math Game developed using C++.
 
-The game generates mathematical questions based on the selected
+The program generates mathematical questions based on the selected
 difficulty level and operation type. The player answers each question,
-and the program calculates the final score.
+and the program tracks the correct and wrong answers before displaying
+the final game results.
+
+---
 
 ## Features
 
 - Choose the number of questions.
-- Choose the difficulty level:
+- Choose the question difficulty:
   - Easy
   - Medium
   - Hard
@@ -20,11 +23,13 @@ and the program calculates the final score.
   - Multiplication
   - Division
   - Mix
-- Randomly generated questions.
+- Randomly generated mathematical questions.
 - Tracks correct and wrong answers.
 - Displays the final game results.
-- Option to play again.
-- Uses separate header and source files for reusable functions.
+- Changes the console color based on the answer/result.
+- Allows the player to play again.
+
+---
 
 ## Technologies
 
@@ -33,10 +38,42 @@ and the program calculates the final score.
 - Git
 - GitHub
 
+---
+
 ## Project Structure
 
 ```text
-Math Game/
-├── Math Game.cpp
-├── function.cpp
-└── function.h
+Math-Game/
+│
+├── Math Game/
+│   ├── Math Game.cpp
+│   ├── functions.cpp
+│   └── functions.h
+│
+├── screenshots/
+│   ├── game-start.png
+│   ├── question.png
+│   └── results.png
+│
+├── .gitignore
+├── Math Game.sln
+└── README.md
+```
+
+---
+
+## Screenshots
+
+### Game Start
+
+![Game Start](screenshots/Start Game.png)
+
+### Question
+
+![Question](screenshots/question_1.png)
+![Question](screenshots/question_2.png)
+
+
+### Final Results
+
+![Final Results](screenshots/results.png)
